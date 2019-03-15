@@ -13,6 +13,10 @@ public class A {
     int codigoA;
     String nomeA;
     
+    public int getCodigoA(){
+        return this.codigoA;
+    }
+    
     public void setCodigoA(int codigoA){
         this.codigoA = codigoA;
     }
