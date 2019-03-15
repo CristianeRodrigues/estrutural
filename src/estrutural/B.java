@@ -12,7 +12,12 @@ package estrutural;
 public class B {
     int codigoB;
     String nomeB;
+    A ClassA;
     
+    public int getCodigoB(){
+        ClassA.setCodigoA(codigoB);
+        return this.codigoB;
+    }
     public void setCodigoB(int codigoB){
         this.codigoB = codigoB;
     }
