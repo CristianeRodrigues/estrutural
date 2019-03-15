@@ -23,6 +23,7 @@ public class A {
     }
     
     public void setCodigoA(int codigoA){
+        System.out.println ("codigoA");
         this.codigoA = codigoA;
     }
     
